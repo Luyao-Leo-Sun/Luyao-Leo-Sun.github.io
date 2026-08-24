@@ -147,7 +147,7 @@ If you are interested in my research or potential collaborations, feel free to r
 
   <div class="publication-card">
     <div class="publication-thumb">
-      <img src="/images/papers/vrise.png" alt="VRISE: A Balance Assessment Approach for Parkinson's Disease">
+      <img src="/images/papers/VRISE.png" alt="VRISE: A Balance Assessment Approach for Parkinson's Disease">
       <a href="https://doi.org/10.1109/CYBER59472.2023.10256589"
          class="publication-overlay"
          target="_blank"
@@ -227,37 +227,52 @@ If you are interested in my research or potential collaborations, feel free to r
 ## News and Updates
 
 <div class="news-grid">
-  <div class="news-card news-card--publication">
+
+  <div class="news-card news-card--milestone">
     <div class="news-meta">
-      <span class="news-date">February 2026</span>
-      <span class="news-tag news-tag--publication">Publication</span>
+      <span class="news-date">2026</span>
+      <span class="news-tag news-tag--milestone">Education</span>
     </div>
-    <p>First-Author Paper: <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000"><strong>Innovative covariance-based framework: symmetry assessment and exponentiality testing under multiplicative distortion measurement Errors</strong></a> Now Officially Published in <a href="https://www.tandfonline.com/journals/lssp20">Communications in Statistics - Simulation and Computation</a></p>
+    <p>
+      Joined the <a href="https://sds.cuhk.edu.cn/" target="_blank">
+      School of Data Science (SDS)</a> at
+      <strong>The Chinese University of Hong Kong, Shenzhen</strong>
+      as an MSc student.
+    </p>
   </div>
 
   <div class="news-card news-card--milestone">
     <div class="news-meta">
-      <span class="news-date">Jan 2026</span>
-      <span class="news-tag news-tag--milestone">Milestone</span>
+      <span class="news-date">2024</span>
+      <span class="news-tag news-tag--milestone">Education</span>
     </div>
-    <p>Excited to have received an offer from Apple!</p>
-  </div>
-
-  <div class="news-card news-card--milestone">
-    <div class="news-meta">
-      <span class="news-date">March 2025</span>
-      <span class="news-tag news-tag--milestone">Milestone</span>
-    </div>
-    <p>Thrilled to have received an offer from UPenn Engineering!</p>
+    <p>
+      Received my B.Eng. degree in
+      <strong>Intelligent Medical Engineering</strong>
+      from the School of Medicine,
+      <strong>Nankai University</strong>.
+    </p>
   </div>
 
   <div class="news-card news-card--publication">
     <div class="news-meta">
-      <span class="news-date">August 2024</span>
+      <span class="news-date">2023</span>
       <span class="news-tag news-tag--publication">Publication</span>
     </div>
-    <p>First-Author Paper: <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708"><strong>A New Logarithmic Multiplicative Distortion for Correlation Analysis</strong></a> Now Officially Published in <a href="https://onlinelibrary.wiley.com/journal/19321872">Statistical Analysis and Data Mining</a> (JCR Q1)</p>
+    <p>
+      Our work
+      <a href="https://doi.org/10.1109/CYBER59472.2023.10256589"
+         target="_blank" rel="noopener">
+        <strong>
+          Virtual Reality-Induced Symptoms and Effects (VRISE):
+          A Balance Assessment Approach for Parkinson's Disease
+        </strong>
+      </a>
+      was published at
+      <strong>IEEE CYBER 2023</strong>.
+    </p>
   </div>
+
 </div>
 
 <script>
@@ -271,6 +286,7 @@ If you are interested in my research or potential collaborations, feel free to r
         }
       });
     }, { threshold: 0.08, rootMargin: '0px 0px -60px 0px' });
+
     document.querySelectorAll('.news-card').forEach(function(card) {
       observer.observe(card);
     });
