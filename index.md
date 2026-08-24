@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="/images/avatar.jpg" class="floatpic">
+<img src="/images/luyao-sun.jpg" class="floatpic">
 
 Here is **Luyao Sun (Leo Sun)**.<br>
 
