@@ -1,22 +1,22 @@
-title: Siming Deng
+title: Luyao Sun
 # Comment out url when working locally to resolve base urls correctly
-url: https://larrysimingdeng.github.io
+url: https://luyao-leo-sun.github.io
 
 # Default social-share preview image (Open Graph / Twitter card). Lives in /images/.
 og_image: og-cover.jpg
 
 # Owner/author information
 owner:
-  name: Siming Deng
+  name: Luyao Sun
   avatar: avatar.jpg
-  email: siming_deng_stat@163.com
-  github: LarrySimingDeng
-  linkedin: larry-deng-317b92360
-  scholar: https://scholar.google.com/citations?hl=en&user=aKyLtgsAAAAJ
-  researchgate: https://www.researchgate.net/profile/Siming-Deng-3
+  email: luyaosun@link.cuhk.edu.cn
+  github: Luyao-Leo-Sun
+  linkedin: 
+  scholar: 
+  researchgate: 
 
 # https://search.google.com/search-console/ownership
-google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
+google_verify: ""
 
 # Links to include in top navigation
 links:
