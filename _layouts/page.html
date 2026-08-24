@@ -126,15 +126,31 @@
   }
   .logo {
     width: auto;
-    height: 72px;
+    height: 50px;
     flex-shrink: 0;
     display: block;
   }
-  /* Full-color lockup in light mode, reverse (white) lockup in dark mode */
-  .logo--dark {
-    display: none;
+
+  .header-logo {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    border: 0;
+    text-decoration: none;
+
+    padding: 6px 10px;
+    border-radius: 10px;
+
+    transition:
+      background-color 0.25s ease,
+      box-shadow 0.25s ease;
   }
 
+  [data-theme="dark"] .header-logo {
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  }
+  
   .header-actions {
     display: flex;
     align-items: center;
@@ -179,7 +195,7 @@
   }
   .header-nav a:hover,
   .header-nav a.is-current {
-    color: #990000;
+    color: #750F6D;
   }
 
   /* Header social links (GitHub · Scholar · LinkedIn · Email) */
@@ -200,7 +216,7 @@
     transition: color 0.2s ease, transform 0.2s ease;
   }
   .header-social__link:hover {
-    color: #990000;
+    color: #750F6D;
     transform: translateY(-1px);
   }
   .header-social__link i {
@@ -245,7 +261,7 @@
       padding: 8px 16px 0;
     }
     .logo {
-      height: 54px;
+      height: 38px;
     }
     .header-bottom {
       gap: 14px;
@@ -276,7 +292,7 @@
       padding: 8px 14px 0;
     }
     .logo {
-      height: 42px;
+      height: 30px;
     }
     .header-bottom {
       gap: 12px;
@@ -346,7 +362,7 @@
       right: 0;
       width: 13px;
       height: 13px;
-      background: #011F5B;
+      background: #750F6D;
       border: 1.5px solid white;
       border-radius: 50%;
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3E%3Cpath d='M2 4l6 4 6-4v8H2V4zm0-1h12L8 7 2 3z'/%3E%3C/svg%3E");
@@ -356,7 +372,7 @@
     }
 
     .mobile-avatar-btn.active {
-      border-color: #011F5B;
+      border-color: #750F6D;
       box-shadow: 0 0 0 2px rgba(1, 31, 91, 0.22);
     }
 
@@ -446,7 +462,7 @@
     }
 
     .mobile-contact-item:active i {
-      color: #011F5B;
+      color: #750F6D;
     }
 
     .contact-icon-svg {
@@ -457,7 +473,7 @@
     }
 
     .mobile-contact-item:active .contact-icon-svg {
-      color: #011F5B;
+      color: #750F6D;
     }
 
     .mobile-contact-item span {
@@ -465,7 +481,7 @@
     }
 
     .mobile-contact-item:active span {
-      color: #011F5B;
+      color: #750F6D;
     }
   }
 
@@ -549,8 +565,9 @@
         </div>
 
         <a class="header-logo" href="{{ site.url }}" aria-label="{{ site.owner.name }}">
-          <img src="/images/penn-logo.png" class="logo logo--light" alt="University of Pennsylvania">
-          <img src="/images/penn-logo-reverse.png" class="logo logo--dark" alt="University of Pennsylvania">
+          <img src="/images/cuhksz-long-logo.png"
+           class="logo"
+           alt="The Chinese University of Hong Kong, Shenzhen">
         </a>
 
         <div class="header-actions">
