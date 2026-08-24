@@ -8,7 +8,15 @@ layout: page
 
 Here is **Luyao Sun (Leo Sun)**.<br>
 
-I am currently an **MSc student** at the [School of Data Science (SDS)](https://sds.cuhk.edu.cn/), **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)**. My research interests include **Reinforcement Learning, World Models, Vision-Language-Action (VLA) models, and Brain-Computer Interfaces (BCI)**. Before joining CUHK-Shenzhen, I received my **B.Eng. in Intelligent Medical Engineering** from the **School of Medicine, Nankai University**. My current research focuses on learning-based intelligent systems, with particular interests in reinforcement learning, world-model-based decision making, embodied intelligence, and multimodal intelligent systems.<br>
+I am currently pursuing an **M.Sc. in Artificial Intelligence and Robotics** at the [School of Data Science (SDS)](https://sds.cuhk.edu.cn/), **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)**. My research interests include **Reinforcement Learning, World Models, Vision-Language-Action (VLA) models, and Brain-Computer Interfaces (BCI)**. Before joining CUHK-Shenzhen, I received my **B.Eng. in Intelligent Medical Engineering** from the **School of Medicine, Nankai University**. My current research focuses on learning-based intelligent systems, with particular interests in reinforcement learning, world-model-based decision making, embodied intelligence, and multimodal intelligent systems.<br>
+
+---
+
+## Research Interests
+
+**Reinforcement Learning · World Models · Vision-Language-Action (VLA) Models · Brain-Computer Interfaces (BCI)**
+
+---
 
 ## Education
 
@@ -21,7 +29,7 @@ I am currently an **MSc student** at the [School of Data Science (SDS)](https://
     <div class="timeline-card">
       <div class="timeline-header">
         <div class="timeline-role">
-          MSc Student
+          M.Sc. in Artificial Intelligence and Robotics
           <span class="timeline-sep">|</span>
           <span class="timeline-company">
             <a href="https://www.cuhk.edu.cn/en" target="_blank">
@@ -32,8 +40,7 @@ I am currently an **MSc student** at the [School of Data Science (SDS)](https://
         <span class="timeline-time">2026 - Present</span>
       </div>
       <div class="timeline-details">
-        School of Data Science (SDS). Research interests include Reinforcement Learning,
-        World Models, Vision-Language-Action (VLA) models, and Brain-Computer Interfaces (BCI).
+        School of Data Science (SDS). 
       </div>
     </div>
   </div>
@@ -61,6 +68,8 @@ I am currently an **MSc student** at the [School of Data Science (SDS)](https://
   </div>
 
 </div>
+
+---
 
 ## Work Experience
 
@@ -136,8 +145,7 @@ I am currently an **MSc student** at the [School of Data Science (SDS)](https://
 })();
 </script>
 
-If you are interested in my research or potential collaborations, feel free to reach out to me at **luyaosun [at] link.cuhk.edu.cn**.
-
+If you are interested in my research or potential collaborations, feel free to reach out to me at **luyaosun@link.cuhk.edu.cn**.
 
 ---
 
@@ -215,12 +223,6 @@ If you are interested in my research or potential collaborations, feel free to r
   }
 })();
 </script>
-
----
-
-## Research Interests
-
-**Reinforcement Learning · World Models · Vision-Language-Action (VLA) Models · Brain-Computer Interfaces (BCI)**
 
 ---
 
