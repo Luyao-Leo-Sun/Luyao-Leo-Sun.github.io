@@ -8,84 +8,81 @@ layout: page
 
 Here is **Luyao Sun (Leo Sun)**.<br>
 
-I am a graduate student in the Department of [Electrical and Systems Engineering (ESE)](https://www.ese.upenn.edu/) at the [Penn Engineering](https://www.seas.upenn.edu/) of the **University of Pennsylvania**. Currently, I build **agentic AI tools and infrastructure** for iPhone hardware testing, spanning agent runtimes (multi-agent orchestration and tool use), on-device inference with **Apple MLX**, closed-loop test optimization, and **Vision Transformers** for distribution diagnosis. Broadly, my interests lie at the intersection of **AI infrastructure, applied ML, and hardware systems**. Prior to joining Penn, I gained valuable research experiences as a Research Assistant at Shenzhen University under the supervision of [Dr. Jun Zhang](https://www.researchgate.net/profile/Jun_Zhang93). My work focused on **Nonparametric Statistics**, **Distortion Measurement Error Models**, and **Large Sample Theory**. I developed and analyzed advanced statistical methods, conducted large-scale simulations, and applied these techniques to real-world datasets, resulting in five SCI publications.<br>
+I am currently an **MSc student** at the [School of Data Science (SDS)](https://sds.cuhk.edu.cn/), **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)**. My research interests include **Reinforcement Learning, World Models, Vision-Language-Action (VLA) models, and Brain-Computer Interfaces (BCI)**. Before joining CUHK-Shenzhen, I received my **B.Eng. in Intelligent Medical Engineering** from the **School of Medicine, Nankai University**. My current research focuses on learning-based intelligent systems, with particular interests in reinforcement learning, world-model-based decision making, embodied intelligence, and multimodal intelligent systems.<br>
+
+## Education
+
+<div class="timeline">
+  <div class="timeline-progress"></div>
+
+  <div class="timeline-item timeline-item--current">
+    <div class="timeline-dot" style="background: #ffffff;">
+    </div>
+    <div class="timeline-card">
+      <div class="timeline-header">
+        <div class="timeline-role">
+          MSc Student
+          <span class="timeline-sep">|</span>
+          <span class="timeline-company">
+            <a href="https://www.cuhk.edu.cn/en" target="_blank">
+              The Chinese University of Hong Kong, Shenzhen
+            </a>
+          </span>
+        </div>
+        <span class="timeline-time">2026 - Present</span>
+      </div>
+      <div class="timeline-details">
+        School of Data Science (SDS). Research interests include Reinforcement Learning,
+        World Models, Vision-Language-Action (VLA) models, and Brain-Computer Interfaces (BCI).
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot" style="background: #ffffff;">
+    </div>
+    <div class="timeline-card">
+      <div class="timeline-header">
+        <div class="timeline-role">
+          B.Eng. in Intelligent Medical Engineering
+          <span class="timeline-sep">|</span>
+          <span class="timeline-company">
+            <a href="https://en.nankai.edu.cn/" target="_blank">
+              Nankai University
+            </a>
+          </span>
+        </div>
+        <span class="timeline-time">2020 - 2024</span>
+      </div>
+      <div class="timeline-details">
+        School of Medicine, Nankai University.
+      </div>
+    </div>
+  </div>
+
+</div>
 
 ## Work Experience
 
 <div class="timeline">
   <div class="timeline-progress" id="timeline-progress"></div>
 
-  <div class="timeline-item timeline-item--current">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/apple.svg" alt="Apple">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">Apple Inc.</span></div>
-        <span class="timeline-time">Jan. 2026 - Present</span>
-      </div>
-      <div class="timeline-details">
-        Developed AI agent tools for iPhone hardware testing, enhancing automated diagnostics workflows and improving large-scale test efficiency.
-      </div>
-    </div>
-  </div>
-
   <div class="timeline-item">
     <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/upenn.svg" alt="UPenn">
     </div>
     <div class="timeline-card">
       <div class="timeline-header">
-        <div class="timeline-role">Research Assistant <span class="timeline-sep">|</span> <span class="timeline-company">University of Pennsylvania</span></div>
-        <span class="timeline-time">Nov. 2025 - Jan. 2026</span>
+        <div class="timeline-role">
+          Management Staff & Instructor
+          <span class="timeline-sep">|</span>
+          <span class="timeline-company">
+            Xueersi Peiyou, Tianjin
+          </span>
+        </div>
+        <span class="timeline-time">Jul. 2024 - Dec. 2024</span>
       </div>
       <div class="timeline-details">
-        ViT-driven image geolocation.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/sf.svg" alt="SF Express">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">SF Express</span></div>
-        <span class="timeline-time">May. 2025 - Jul. 2025</span>
-      </div>
-      <div class="timeline-details">
-        Delivered microservice modules for the order management system.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/boc.svg" alt="Bank of China">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">Bank of China</span></div>
-        <span class="timeline-time">Jul. 2024 - Sep. 2024</span>
-      </div>
-      <div class="timeline-details">
-        Involved in the deployment and fine-tuning of large language models in internal banking systems.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/szu.svg" alt="Shenzhen University">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Research Assistant <span class="timeline-sep">|</span> <span class="timeline-company"><a href="https://bdsc.szu.edu.cn/">Big Data Institute, Shenzhen University</a></span></div>
-        <span class="timeline-time">2023 - 2024</span>
-      </div>
-      <div class="timeline-details">
-        Supervised by Distinguished Professor <a href="https://dblp.org/pid/h/JoshuaZhexueHuang.html">Joshua Zhexue Huang</a>. Carried out optimizations on data processing and clustering algorithms by leveraging distributed approximate computing techniques.
+        Worked in both management and teaching roles at Xueersi Peiyou in Heping District, Tianjin.
       </div>
     </div>
   </div>
@@ -262,16 +259,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ## Research Interests
 
-- ML Systems & AI Infrastructure
-- Efficient & On-Device Inference (Apple MLX, SGLang)
-- Agentic AI (multi-agent orchestration & tool use)
-- Machine Learning
-- Nonparametric Statistics
-
-I currently work at the intersection of **AI infrastructure and applied ML**, building agent runtimes and optimizing LLM inference.
-
-Previously, my research centered on **nonparametric statistics** and **measurement-error modeling**, unobservable-variable estimation under multiplicative distortion frameworks, where I developed calibration methods and simulation studies to improve correlation-coefficient estimation in complex industrial settings, resulting in five SCI publications.
-<img src="/images/sunset.jpg">
+**Reinforcement Learning · World Models · Vision-Language-Action (VLA) Models · Brain-Computer Interfaces (BCI)**
 
 ---
 
