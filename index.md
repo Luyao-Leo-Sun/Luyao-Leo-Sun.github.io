@@ -136,9 +136,8 @@ I am currently an **MSc student** at the [School of Data Science (SDS)](https://
 })();
 </script>
 
-If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - siming_deng_stat [at] 163.com
+If you are interested in my research or potential collaborations, feel free to reach out to me at **luyaosun [at] link.cuhk.edu.cn**.
 
-**<font color="#990000">Seeking Software Engineer and Machine Learning roles — AI Infrastructure, Applied AI / Agents, and ML Systems. Feel free to reach out!</font>**
 
 ---
 
