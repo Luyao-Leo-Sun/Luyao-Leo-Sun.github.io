@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 132" width="1200" height="132" role="img" aria-label="Site color palette: Penn Blue, Penn Red, Sky Blue, Signal Red">
+  <defs>
+    <style>
+      .name { font: 600 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .hex  { font: 500 13px 'SF Mono', Menlo, Consolas, monospace; opacity: 0.85; }
+      .role { font: 400 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; opacity: 0.72; }
+    </style>
+  </defs>
+
+  <!-- Penn Blue -->
+  <g>
+    <rect x="0" y="20" width="285" height="92" rx="16" fill="#011F5B"/>
+    <text class="name" x="24" y="52" fill="#ffffff">Penn Blue</text>
+    <text class="hex"  x="24" y="74" fill="#ffffff">#011F5B</text>
+    <text class="role" x="24" y="94" fill="#ffffff">structure &#183; headings &#183; links</text>
+  </g>
+
+  <!-- Penn Red -->
+  <g>
+    <rect x="305" y="20" width="285" height="92" rx="16" fill="#990000"/>
+    <text class="name" x="329" y="52" fill="#ffffff">Penn Red</text>
+    <text class="hex"  x="329" y="74" fill="#ffffff">#990000</text>
+    <text class="role" x="329" y="94" fill="#ffffff">scarce accent &#183; current role</text>
+  </g>
+
+  <!-- Sky Blue (dark mode) -->
+  <g>
+    <rect x="610" y="20" width="285" height="92" rx="16" fill="#6EA8FF"/>
+    <text class="name" x="634" y="52" fill="#08163a">Sky Blue</text>
+    <text class="hex"  x="634" y="74" fill="#08163a">#6EA8FF</text>
+    <text class="role" x="634" y="94" fill="#08163a">dark-mode primary</text>
+  </g>
+
+  <!-- Signal Red (dark mode) -->
+  <g>
+    <rect x="915" y="20" width="285" height="92" rx="16" fill="#E5484D"/>
+    <text class="name" x="939" y="52" fill="#ffffff">Signal Red</text>
+    <text class="hex"  x="939" y="74" fill="#ffffff">#E5484D</text>
+    <text class="role" x="939" y="94" fill="#ffffff">dark-mode accent</text>
+  </g>
+</svg>

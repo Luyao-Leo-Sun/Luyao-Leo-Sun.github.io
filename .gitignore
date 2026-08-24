@@ -1,0 +1,17 @@
+# Jekyll generated files
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/
+
+# macOS
+.DS_Store
+
+# Editor files
+.idea/
+*.swp
+*.swo
+*~
