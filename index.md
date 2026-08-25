@@ -37,7 +37,7 @@ I am currently pursuing an **M.Sc. in Artificial Intelligence and Robotics** at 
             </a>
           </span>
         </div>
-        <span class="timeline-time">2026 - Present</span>
+        <span class="timeline-time">Sep. 2026 - Present</span>
       </div>
       <div class="timeline-details">
         School of Data Science (SDS). 
@@ -59,7 +59,7 @@ I am currently pursuing an **M.Sc. in Artificial Intelligence and Robotics** at 
             </a>
           </span>
         </div>
-        <span class="timeline-time">2020 - 2024</span>
+        <span class="timeline-time">Sep. 2020 - Jul. 2024</span>
       </div>
       <div class="timeline-details">
         School of Medicine, Nankai University.
