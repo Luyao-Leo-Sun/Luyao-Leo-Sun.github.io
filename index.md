@@ -260,7 +260,30 @@ If you are interested in my research or potential collaborations, feel free to r
       Joined the <a href="https://sds.cuhk.edu.cn/" target="_blank">
       School of Data Science (SDS)</a> at
       <strong>The Chinese University of Hong Kong, Shenzhen</strong>
-      as an MSc student.
+      to pursue an <strong>M.Sc. in Artificial Intelligence and Robotics</strong>.
+    </p>
+  </div>
+
+  <div class="news-card news-card--research">
+    <div class="news-meta">
+      <span class="news-date">2026</span>
+      <span class="news-tag news-tag--research">Research</span>
+    </div>
+    <p>
+      Currently conducting research in areas including
+      <strong>Vision-Language-Action (VLA) models, Reinforcement Learning,
+      and World Models</strong>.
+    </p>
+  </div>
+
+  <div class="news-card news-card--research">
+    <div class="news-meta">
+      <span class="news-date">2026</span>
+      <span class="news-tag news-tag--research">Research</span>
+    </div>
+    <p>
+      Currently conducting research on the application of
+      <strong>signal processing methods to medical diagnosis</strong>.
     </p>
   </div>
 
@@ -293,6 +316,19 @@ If you are interested in my research or potential collaborations, feel free to r
       </a>
       was published at
       <strong>IEEE CYBER 2023</strong>.
+    </p>
+  </div>
+
+  <div class="news-card news-card--milestone">
+    <div class="news-meta">
+      <span class="news-date">2020</span>
+      <span class="news-tag news-tag--milestone">Education</span>
+    </div>
+    <p>
+      Began my undergraduate studies in
+      <strong>Intelligent Medical Engineering</strong>
+      at the School of Medicine,
+      <strong>Nankai University</strong>.
     </p>
   </div>
 
