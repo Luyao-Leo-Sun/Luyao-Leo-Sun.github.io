@@ -5315,8 +5315,43 @@ input.switch__input:focus-visible {
     0 0.125em 0.5em rgba(0, 0, 0, 0.40);
 }
 
-/* Xueersi uses a wider horizontal logo */
+/* ============================================
+   TIMELINE ORGANIZATION LOGOS
+   ============================================ */
+
+/* Keep all organization-logo nodes on a white surface
+   so transparent emblems remain readable in both themes. */
+.timeline-dot {
+  background: #ffffff !important;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .timeline-dot {
+  background: #ffffff !important;
+}
+
+/* Keep normal school emblems centered */
+.timeline-dot img {
+  display: block;
+  object-fit: contain;
+}
+
+/* Xueersi is a horizontal wordmark, so let it occupy
+   almost the full width of the circular node. */
 .timeline-dot img.timeline-dot-logo--wide {
-  max-width: 36px;
-  max-height: 22px;
+  width: 92%;
+  max-width: none;
+  max-height: none;
+  height: auto;
+
+  transform: scale(1.12);
+  transform-origin: center;
+}
+
+/* Prevent the wordmark from becoming cramped on small screens */
+@media (max-width: 480px) {
+  .timeline-dot img.timeline-dot-logo--wide {
+    width: 94%;
+    transform: scale(1.08);
+  }
 }
