@@ -74,7 +74,7 @@ I am currently pursuing an **M.Sc. in Artificial Intelligence and Robotics** at 
 ## Work Experience
 
 <div class="timeline">
-  <div class="timeline-progress" id="timeline-progress"></div>
+  <div class="timeline-progress"></div>
 
   <div class="timeline-item">
     <div class="timeline-dot" style="background: #ffffff;">
