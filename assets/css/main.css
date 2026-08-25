@@ -2555,10 +2555,19 @@ img.mfp-img {
   animation-delay: 0s;
 }
 .news-card:nth-child(2).animate-in {
-  animation-delay: 0.12s;
+  animation-delay: 0.08s;
 }
 .news-card:nth-child(3).animate-in {
+  animation-delay: 0.16s;
+}
+.news-card:nth-child(4).animate-in {
   animation-delay: 0.24s;
+}
+.news-card:nth-child(5).animate-in {
+  animation-delay: 0.32s;
+}
+.news-card:nth-child(6).animate-in {
+  animation-delay: 0.40s;
 }
 
 /* Hover */
@@ -2619,6 +2628,12 @@ img.mfp-img {
 }
 .news-tag--milestone::before {
   background: #059669;
+}
+.news-tag--research {
+  color: #750F6D;
+}
+.news-tag--research::before {
+  background: #750F6D;
 }
 
 /* 正文 */
