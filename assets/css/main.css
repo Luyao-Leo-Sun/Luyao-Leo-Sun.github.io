@@ -5001,3 +5001,28 @@ hr {
   box-shadow:
     0 12px 28px -14px rgba(213, 139, 207, 0.18);
 }
+
+/* Timeline hover halo: override legacy Penn colors */
+.timeline-item.in-view:not(.timeline-item--current):hover .timeline-dot {
+  border-color: var(--brand-purple);
+  box-shadow:
+    0 0 0 7px rgba(117, 15, 109, 0.10),
+    0 2px 18px rgba(117, 15, 109, 0.22);
+}
+
+[data-theme="dark"]
+  .timeline-item.in-view:not(.timeline-item--current):hover
+  .timeline-dot {
+  border-color: #d58bcf;
+  box-shadow:
+    0 0 0 7px rgba(213, 139, 207, 0.10),
+    0 2px 18px rgba(213, 139, 207, 0.22);
+}
+
+/* Keep accessibility preference after the new pulse override */
+@media (prefers-reduced-motion: reduce) {
+  .timeline-item--current.in-view .timeline-dot,
+  [data-theme="dark"] .timeline-item--current.in-view .timeline-dot {
+    animation: none;
+  }
+}
