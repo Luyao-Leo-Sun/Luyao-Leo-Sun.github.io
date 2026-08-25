@@ -5127,3 +5127,80 @@ hr {
   background: #d58bcf;
   color: #1c1c22;
 }
+
+/* ============================================
+   GLOBAL TYPOGRAPHY & LINKS - BRAND COLORS
+   ============================================ */
+
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+.article-wrap h1,
+.article-wrap h2,
+.article-wrap h3,
+.article-wrap h4,
+.article-wrap h5,
+.article-wrap h6 {
+  color: var(--brand-purple);
+}
+
+/* Section heading accent */
+.article-wrap h1::after,
+.article-wrap h2::after {
+  background: var(--brand-purple);
+}
+
+/* Prose links */
+.article-wrap p > a,
+.article-wrap li > a {
+  color: var(--brand-purple);
+  border-bottom-color: rgba(117, 15, 109, 0.28);
+}
+
+.article-wrap p > a:hover,
+.article-wrap li > a:hover {
+  color: var(--brand-purple-hover);
+  border-bottom-color: rgba(117, 15, 109, 0.50);
+}
+
+/* Horizontal rules */
+hr {
+  border-top-color: rgba(117, 15, 109, 0.16);
+}
+
+/* ---------- Dark mode ---------- */
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6,
+[data-theme="dark"] .article-wrap h1,
+[data-theme="dark"] .article-wrap h2,
+[data-theme="dark"] .article-wrap h3,
+[data-theme="dark"] .article-wrap h4,
+[data-theme="dark"] .article-wrap h5,
+[data-theme="dark"] .article-wrap h6 {
+  color: #f1eef2;
+}
+
+[data-theme="dark"] .article-wrap h1::after,
+[data-theme="dark"] .article-wrap h2::after {
+  background: #d58bcf;
+}
+
+[data-theme="dark"] .article-wrap p > a,
+[data-theme="dark"] .article-wrap li > a {
+  color: #d58bcf;
+  border-bottom-color: rgba(213, 139, 207, 0.34);
+}
+
+[data-theme="dark"] .article-wrap p > a:hover,
+[data-theme="dark"] .article-wrap li > a:hover {
+  color: #efb5ea;
+  border-bottom-color: rgba(239, 181, 234, 0.52);
+}
+
+[data-theme="dark"] hr {
+  border-top-color: rgba(213, 139, 207, 0.16);
+}
