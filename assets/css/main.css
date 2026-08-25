@@ -5231,3 +5231,26 @@ hr {
 [data-theme="dark"] .article-wrap h2::after {
   background: #d58bcf;
 }
+
+/* ============================================
+   BEYOND RESEARCH - PERSONAL PHOTOS
+   ============================================ */
+
+.hobby-photo {
+  margin: 1.4em 0 2em;
+}
+
+.hobby-photo img {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  border-radius: 14px;
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] .hobby-photo img {
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.28);
+}
