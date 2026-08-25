@@ -4895,3 +4895,47 @@ hr {
 [data-theme="dark"] .article-wrap font[color="#990000"] {
   color: #e5484d;
 }
+
+/* ============================================
+   LUYAO SUN / CUHK-SHENZHEN BRAND OVERRIDES
+   ============================================ */
+
+:root {
+  --brand-purple: #750F6D;
+  --brand-purple-hover: #5f0c59;
+  --brand-purple-soft: rgba(117, 15, 109, 0.16);
+  --brand-purple-border: rgba(117, 15, 109, 0.24);
+}
+
+/* Timeline progress */
+.timeline-progress {
+  background: linear-gradient(
+    to bottom,
+    #750F6D,
+    #a64c9e
+  );
+}
+
+/* Timeline active dot */
+.timeline-item.in-view .timeline-dot {
+  border-color: #750F6D;
+  box-shadow: 0 0 0 4px rgba(117, 15, 109, 0.16);
+}
+
+/* Timeline school / company links */
+.timeline-company,
+.timeline-company a,
+.timeline-details a {
+  color: #750F6D;
+}
+
+.timeline-company a:hover,
+.timeline-details a:hover {
+  color: #5f0c59;
+}
+
+/* Timeline card hover */
+.timeline-card:hover {
+  border-color: rgba(117, 15, 109, 0.22);
+  box-shadow: 0 12px 28px -14px rgba(117, 15, 109, 0.20);
+}
