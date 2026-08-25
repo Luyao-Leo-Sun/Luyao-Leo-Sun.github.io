@@ -24,7 +24,7 @@ I am currently pursuing an **M.Sc. in Artificial Intelligence and Robotics** at 
   <div class="timeline-progress"></div>
 
   <div class="timeline-item timeline-item--current">
-    <div class="timeline-dot">
+    <div class="timeline-dot timeline-dot--school">
       <img src="/images/Emblem_of_CU.png"
            alt="The Chinese University of Hong Kong, Shenzhen emblem">
     </div>
@@ -52,7 +52,7 @@ I am currently pursuing an **M.Sc. in Artificial Intelligence and Robotics** at 
 
 
   <div class="timeline-item">
-    <div class="timeline-dot">
+    <div class="timeline-dot timeline-dot--school">
       <img src="/images/Seal_of_Nankai_University.svg"
            alt="Nankai University seal">
     </div>
@@ -88,7 +88,7 @@ I am currently pursuing an **M.Sc. in Artificial Intelligence and Robotics** at 
   <div class="timeline-progress"></div>
 
   <div class="timeline-item">
-    <div class="timeline-dot">
+    <div class="timeline-dot timeline-dot--xueersi">
       <img src="/images/xueersi-logo.jpg"
            class="timeline-dot-logo--wide"
            alt="Xueersi logo">
