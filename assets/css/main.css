@@ -5041,3 +5041,89 @@ hr {
       0 0 0 15px rgba(213, 139, 207, 0);
   }
 }
+
+/* ============================================
+   PUBLICATIONS - CUHK-SHENZHEN BRAND
+   ============================================ */
+
+/* Publication card */
+.publication-card:hover {
+  border-color: rgba(117, 15, 109, 0.18);
+  box-shadow:
+    0 8px 24px rgba(117, 15, 109, 0.10),
+    0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Thumbnail background */
+.publication-thumb {
+  background: linear-gradient(
+    135deg,
+    #f7eef6 0%,
+    #f1e4f0 100%
+  );
+}
+
+/* "View Paper" overlay */
+.publication-overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(117, 15, 109, 0.90),
+    rgba(166, 76, 158, 0.88)
+  );
+}
+
+/* Paper title */
+.publication-title a:hover {
+  color: var(--brand-purple);
+}
+
+/* Highlight my name */
+.author-highlight {
+  color: var(--brand-purple);
+}
+
+/* [paper] button */
+.publication-conference a {
+  background: rgba(117, 15, 109, 0.09);
+  color: var(--brand-purple);
+}
+
+.publication-conference a:hover {
+  background: var(--brand-purple);
+  color: #ffffff;
+}
+
+/* ---------- Dark mode ---------- */
+
+[data-theme="dark"] .publication-card:hover {
+  border-color: rgba(213, 139, 207, 0.22);
+  box-shadow:
+    0 8px 24px rgba(213, 139, 207, 0.10),
+    0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme="dark"] .publication-thumb {
+  background: linear-gradient(
+    135deg,
+    #281a27 0%,
+    #332030 100%
+  );
+}
+
+[data-theme="dark"] .publication-title a:hover {
+  color: #efb5ea;
+}
+
+[data-theme="dark"] .author-highlight {
+  color: #d58bcf;
+}
+
+[data-theme="dark"] .publication-conference a {
+  background: rgba(213, 139, 207, 0.14);
+  color: #d58bcf;
+}
+
+[data-theme="dark"] .publication-conference a:hover {
+  background: #d58bcf;
+  color: #1c1c22;
+}
