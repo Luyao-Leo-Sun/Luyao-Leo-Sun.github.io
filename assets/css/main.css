@@ -5319,39 +5319,63 @@ input.switch__input:focus-visible {
    TIMELINE ORGANIZATION LOGOS
    ============================================ */
 
-/* Keep all organization-logo nodes on a white surface
-   so transparent emblems remain readable in both themes. */
-.timeline-dot {
+/* School nodes: force a real white circular backing layer */
+.timeline-dot--school {
+  position: absolute;
   background: #ffffff !important;
+  isolation: isolate;
   overflow: hidden;
 }
 
-[data-theme="dark"] .timeline-dot {
-  background: #ffffff !important;
+/* Independent white disk behind transparent school emblems */
+.timeline-dot--school::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #ffffff;
+  z-index: 0;
 }
 
-/* Keep normal school emblems centered */
-.timeline-dot img {
+/* Keep school logos above the white disk */
+.timeline-dot--school img {
+  position: relative;
+  z-index: 1;
+
   display: block;
   object-fit: contain;
 }
 
-/* Xueersi is a horizontal wordmark, so let it occupy
-   almost the full width of the circular node. */
+/* White backing remains unchanged in dark mode */
+[data-theme="dark"] .timeline-dot--school,
+[data-theme="dark"] .timeline-dot--school::before {
+  background: #ffffff !important;
+}
+
+
+/* Xueersi node also stays white */
+.timeline-dot--xueersi {
+  background: #ffffff !important;
+  overflow: hidden;
+}
+
+/* Xueersi source image has large white margins.
+   Scale it substantially and let the circular node crop the excess. */
 .timeline-dot img.timeline-dot-logo--wide {
-  width: 92%;
-  max-width: none;
-  max-height: none;
+  width: 100%;
   height: auto;
 
-  transform: scale(1.12);
+  max-width: none;
+  max-height: none;
+
+  transform: scale(1.5);
   transform-origin: center;
 }
 
-/* Prevent the wordmark from becoming cramped on small screens */
+/* Mobile */
 @media (max-width: 480px) {
   .timeline-dot img.timeline-dot-logo--wide {
-    width: 94%;
-    transform: scale(1.08);
+    width: 100%;
+    transform: scale(1.5);
   }
 }
