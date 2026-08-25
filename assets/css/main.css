@@ -4981,7 +4981,7 @@ hr {
 
 [data-theme="dark"] .timeline-item--current.in-view .timeline-dot {
   border-color: #d58bcf;
-  animation: brand-dot-pulse 2.8s
+  animation: brand-dot-pulse-dark 2.8s
     cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
 }
 
@@ -5024,5 +5024,20 @@ hr {
   .timeline-item--current.in-view .timeline-dot,
   [data-theme="dark"] .timeline-item--current.in-view .timeline-dot {
     animation: none;
+  }
+}
+
+@keyframes brand-dot-pulse-dark {
+  0% {
+    box-shadow:
+      0 0 0 4px rgba(213, 139, 207, 0.16),
+      0 0 0 4px rgba(213, 139, 207, 0.28);
+  }
+
+  70%,
+  100% {
+    box-shadow:
+      0 0 0 4px rgba(213, 139, 207, 0.16),
+      0 0 0 15px rgba(213, 139, 207, 0);
   }
 }
