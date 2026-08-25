@@ -24,71 +24,57 @@ I am currently pursuing an **M.Sc. in Artificial Intelligence and Robotics** at 
   <div class="timeline-progress"></div>
 
   <div class="timeline-item timeline-item--current">
-    <div class="timeline-dot" style="background: #ffffff;">
+    <div class="timeline-dot">
+      <img src="/images/Emblem_of_CU.png"
+           alt="The Chinese University of Hong Kong, Shenzhen emblem">
     </div>
 
-    <div class="timeline-card timeline-card--with-logo">
-
-      <div class="timeline-logo">
-        <img src="/images/Emblem_of_CU.png"
-             alt="The Chinese University of Hong Kong, Shenzhen emblem">
-      </div>
-
-      <div class="timeline-card-body">
-        <div class="timeline-header">
-          <div class="timeline-role">
-            M.Sc. in Artificial Intelligence and Robotics
-            <span class="timeline-sep">|</span>
-            <span class="timeline-company">
-              <a href="https://www.cuhk.edu.cn/en" target="_blank">
-                The Chinese University of Hong Kong, Shenzhen
-              </a>
-            </span>
-          </div>
-
-          <span class="timeline-time">Sep. 2026 - Present</span>
+    <div class="timeline-card">
+      <div class="timeline-header">
+        <div class="timeline-role">
+          M.Sc. in Artificial Intelligence and Robotics
+          <span class="timeline-sep">|</span>
+          <span class="timeline-company">
+            <a href="https://www.cuhk.edu.cn/en" target="_blank">
+              The Chinese University of Hong Kong, Shenzhen
+            </a>
+          </span>
         </div>
 
-        <div class="timeline-details">
-          School of Data Science (SDS).
-        </div>
+        <span class="timeline-time">Sep. 2026 - Present</span>
       </div>
 
+      <div class="timeline-details">
+        School of Data Science (SDS).
+      </div>
     </div>
   </div>
 
 
   <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
+    <div class="timeline-dot">
+      <img src="/images/Seal_of_Nankai_University.svg"
+           alt="Nankai University seal">
     </div>
 
-    <div class="timeline-card timeline-card--with-logo">
-
-      <div class="timeline-logo">
-        <img src="/images/Seal_of_Nankai_University.svg"
-             alt="Nankai University seal">
-      </div>
-
-      <div class="timeline-card-body">
-        <div class="timeline-header">
-          <div class="timeline-role">
-            B.Eng. in Intelligent Medical Engineering
-            <span class="timeline-sep">|</span>
-            <span class="timeline-company">
-              <a href="https://en.nankai.edu.cn/" target="_blank">
-                Nankai University
-              </a>
-            </span>
-          </div>
-
-          <span class="timeline-time">Sep. 2020 - Jul. 2024</span>
+    <div class="timeline-card">
+      <div class="timeline-header">
+        <div class="timeline-role">
+          B.Eng. in Intelligent Medical Engineering
+          <span class="timeline-sep">|</span>
+          <span class="timeline-company">
+            <a href="https://en.nankai.edu.cn/" target="_blank">
+              Nankai University
+            </a>
+          </span>
         </div>
 
-        <div class="timeline-details">
-          School of Medicine, Nankai University.
-        </div>
+        <span class="timeline-time">Sep. 2020 - Jul. 2024</span>
       </div>
 
+      <div class="timeline-details">
+        School of Medicine, Nankai University.
+      </div>
     </div>
   </div>
 
@@ -102,34 +88,28 @@ I am currently pursuing an **M.Sc. in Artificial Intelligence and Robotics** at 
   <div class="timeline-progress"></div>
 
   <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
+    <div class="timeline-dot">
+      <img src="/images/xueersi-logo.jpg"
+           class="timeline-dot-logo--wide"
+           alt="Xueersi logo">
     </div>
 
-    <div class="timeline-card timeline-card--with-logo">
-
-      <div class="timeline-logo">
-        <img src="/images/xueersi-logo.jpg"
-             alt="Xueersi logo">
-      </div>
-
-      <div class="timeline-card-body">
-        <div class="timeline-header">
-          <div class="timeline-role">
-            Management Staff & Instructor
-            <span class="timeline-sep">|</span>
-            <span class="timeline-company">
-              Xueersi Peiyou, Tianjin
-            </span>
-          </div>
-
-          <span class="timeline-time">Jul. 2024 - Dec. 2024</span>
+    <div class="timeline-card">
+      <div class="timeline-header">
+        <div class="timeline-role">
+          Management Staff & Instructor
+          <span class="timeline-sep">|</span>
+          <span class="timeline-company">
+            Xueersi Peiyou, Tianjin
+          </span>
         </div>
 
-        <div class="timeline-details">
-          Worked in both management and teaching roles at Xueersi Peiyou in Heping District, Tianjin.
-        </div>
+        <span class="timeline-time">Jul. 2024 - Dec. 2024</span>
       </div>
 
+      <div class="timeline-details">
+        Worked in both management and teaching roles at Xueersi Peiyou in Heping District, Tianjin.
+      </div>
     </div>
   </div>
 
