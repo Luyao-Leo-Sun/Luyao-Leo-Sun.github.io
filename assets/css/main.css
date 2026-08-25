@@ -5344,6 +5344,9 @@ input.switch__input:focus-visible {
 
   display: block;
   object-fit: contain;
+
+  transform: scale(1.8);
+  transform-origin: center;
 }
 
 /* White backing remains unchanged in dark mode */
