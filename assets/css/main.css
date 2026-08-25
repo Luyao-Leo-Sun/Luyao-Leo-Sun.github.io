@@ -5254,3 +5254,63 @@ hr {
   box-shadow:
     0 8px 24px rgba(0, 0, 0, 0.28);
 }
+
+/* ============================================
+   THEME TOGGLE - BRAND PURPLE
+   ============================================ */
+
+/* Light mode: moving inner control */
+.switch__inner:before {
+  background-color: var(--brand-purple);
+}
+
+/* Checked track */
+input.switch__input:checked {
+  background-color: var(--brand-purple);
+}
+
+/* Outer active icon */
+input.switch__input:checked ~ .switch__icon {
+  color: rgba(117, 15, 109, 0.55);
+}
+
+/* Moving control when checked */
+input.switch__input:checked ~ .switch__inner:before {
+  background-color: #d58bcf;
+}
+
+/* Icons inside the moving control */
+input.switch__input:checked ~ .switch__inner-icons .switch__icon {
+  color: var(--brand-purple);
+}
+
+/* Keyboard focus */
+input.switch__input:focus-visible {
+  box-shadow:
+    0 0 0 0.0625em rgba(117, 15, 109, 0.65),
+    0 0.125em 0.5em rgba(117, 15, 109, 0.18);
+}
+
+/* ---------- Dark mode ---------- */
+
+[data-theme="dark"] input.switch__input:checked {
+  background-color: var(--brand-purple);
+}
+
+[data-theme="dark"] input.switch__input:checked ~ .switch__icon {
+  color: rgba(213, 139, 207, 0.65);
+}
+
+[data-theme="dark"] .switch__inner:before {
+  background-color: #d58bcf;
+}
+
+[data-theme="dark"] .switch__inner-icons .switch__icon {
+  color: var(--brand-purple);
+}
+
+[data-theme="dark"] input.switch__input:focus-visible {
+  box-shadow:
+    0 0 0 0.0625em rgba(213, 139, 207, 0.70),
+    0 0.125em 0.5em rgba(0, 0, 0, 0.40);
+}
