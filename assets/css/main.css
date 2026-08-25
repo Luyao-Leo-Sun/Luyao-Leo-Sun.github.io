@@ -5204,3 +5204,30 @@ hr {
 [data-theme="dark"] hr {
   border-top-color: rgba(213, 139, 207, 0.16);
 }
+
+/* ============================================
+   SECTION HEADINGS - CONSISTENT STYLE
+   ============================================ */
+
+/* All section titles use the same neutral color */
+.article-wrap h1,
+.article-wrap h2 {
+  color: #242126;
+}
+
+/* Same brand accent for every section */
+.article-wrap h1::after,
+.article-wrap h2::after {
+  background: var(--brand-purple);
+}
+
+/* Dark mode */
+[data-theme="dark"] .article-wrap h1,
+[data-theme="dark"] .article-wrap h2 {
+  color: #f1eef2;
+}
+
+[data-theme="dark"] .article-wrap h1::after,
+[data-theme="dark"] .article-wrap h2::after {
+  background: #d58bcf;
+}
