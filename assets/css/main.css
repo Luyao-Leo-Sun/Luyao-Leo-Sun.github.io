@@ -2831,15 +2831,16 @@ img.mfp-img {
 
 /* Card header: role + time */
 .timeline-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  column-gap: 14px;
   margin-bottom: 0;
-  flex-wrap: wrap;
 }
 
 .timeline-role {
+  min-width: 0;
+  
   font-family:
     "Inter",
     -apple-system,
@@ -2857,6 +2858,9 @@ img.mfp-img {
 }
 
 .timeline-time {
+  align-self: end;
+  justify-self: end;
+  
   font-size: 0.85rem;
   color: #9a9ab5;
   font-family: "Courier New", monospace;
@@ -2958,8 +2962,12 @@ img.mfp-img {
   }
 
   .timeline-header {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 2px;
+  }
+
+  .timeline-time {
+    justify-self: start;
   }
 }
 
