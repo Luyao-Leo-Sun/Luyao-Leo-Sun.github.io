@@ -100,48 +100,69 @@ I am currently pursuing an **M.Sc. in Artificial Intelligence and Robotics** at 
 
 <script>
 (function() {
-  var timelineProgress = document.getElementById('timeline-progress');
-  var timeline = document.querySelector('.timeline');
-  if (!timelineProgress || !timeline) return;
+  var timelines = document.querySelectorAll('.timeline');
 
-  var items = timeline.querySelectorAll('.timeline-item');
+  timelines.forEach(function(timeline) {
+    var timelineProgress = timeline.querySelector('.timeline-progress');
+    var items = timeline.querySelectorAll('.timeline-item');
 
-  // IntersectionObserver for in-view class
-  if ('IntersectionObserver' in window) {
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('in-view');
-        }
+    if (!timelineProgress || !items.length) return;
+
+    // Reveal timeline items when they enter the viewport
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+          }
+        });
+      }, {
+        rootMargin: '0px 0px -15% 0px'
       });
-    }, { rootMargin: '0px 0px -15% 0px' });
 
-    items.forEach(function(item, idx) {
-      if (idx < 3) {
-        // Reveal first 3 immediately on load (still gets the stagger transition)
-        item.classList.add('in-view');
-      } else {
+      items.forEach(function(item) {
         observer.observe(item);
-      }
-    });
-  } else {
-    items.forEach(function(item) { item.classList.add('in-view'); });
-  }
+      });
 
-  // Scroll progress bar
-  window.addEventListener('scroll', function() {
-    var rect = timeline.getBoundingClientRect();
-    var totalHeight = timeline.offsetHeight;
-    var windowH = window.innerHeight;
-    var lineTop = 30;
-    var lineBottom = 30;
-    var lineHeight = totalHeight - lineTop - lineBottom;
-
-    if (rect.top < windowH && rect.bottom > 0) {
-      var scrolled = Math.min(1, Math.max(0, (windowH - rect.top - lineTop) / (totalHeight - lineTop + windowH * 0.4)));
-      timelineProgress.style.height = Math.min(scrolled * lineHeight, lineHeight) + 'px';
+    } else {
+      items.forEach(function(item) {
+        item.classList.add('in-view');
+      });
     }
-  }, { passive: true });
+
+    // Update the progress line for each timeline independently
+    function updateProgress() {
+      var rect = timeline.getBoundingClientRect();
+      var totalHeight = timeline.offsetHeight;
+      var windowH = window.innerHeight;
+
+      var lineTop = 30;
+      var lineBottom = 30;
+      var lineHeight = totalHeight - lineTop - lineBottom;
+
+      if (rect.top < windowH && rect.bottom > 0) {
+        var scrolled = Math.min(
+          1,
+          Math.max(
+            0,
+            (windowH - rect.top - lineTop) /
+            (totalHeight - lineTop + windowH * 0.4)
+          )
+        );
+
+        timelineProgress.style.height =
+          Math.min(scrolled * lineHeight, lineHeight) + 'px';
+      }
+    }
+
+    window.addEventListener(
+      'scroll',
+      updateProgress,
+      { passive: true }
+    );
+
+    updateProgress();
+  });
 })();
 </script>
 
