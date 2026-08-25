@@ -2833,7 +2833,7 @@ img.mfp-img {
 .timeline-header {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  align-items: end;
+  align-items: baseline;
   column-gap: 14px;
   margin-bottom: 0;
 }
@@ -2858,7 +2858,7 @@ img.mfp-img {
 }
 
 .timeline-time {
-  align-self: end;
+  align-self: baseline;
   justify-self: end;
   
   font-size: 0.85rem;
