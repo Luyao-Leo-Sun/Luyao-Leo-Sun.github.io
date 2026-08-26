@@ -4720,9 +4720,6 @@ hr {
        recolored into the Penn family. Ring lights up in a
        brighter Penn-blue tone; the progress line runs Penn red
        (current, at the top) into Penn blue (the past). --- */
-.timeline-progress {
-  background: linear-gradient(to bottom, #990000, #011f5b 140px);
-}
 /* This element's `transition` is contested earlier in the file
    (the dark-mode theme block overrides the component one), so the
    authoritative list lives here: theme swap + quiet hover. */
@@ -4735,19 +4732,8 @@ hr {
 }
 /* Lit ring: a close halo plus a soft downward glow, so the ring
    reads as light rather than a flat outline */
-.timeline-item.in-view .timeline-dot {
-  border-color: #1552b4;
-  box-shadow:
-    0 0 0 4px rgba(21, 82, 180, 0.14),
-    0 2px 14px rgba(21, 82, 180, 0.22);
-}
 /* Hovering a row makes its node's halo breathe outward
    (the current node keeps its own heartbeat instead) */
-.timeline-item.in-view:not(.timeline-item--current):hover .timeline-dot {
-  box-shadow:
-    0 0 0 7px rgba(21, 82, 180, 0.1),
-    0 2px 18px rgba(21, 82, 180, 0.26);
-}
 .timeline-company,
 .timeline-company a,
 .timeline-details a {
