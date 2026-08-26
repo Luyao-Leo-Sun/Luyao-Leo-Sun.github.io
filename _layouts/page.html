@@ -99,7 +99,7 @@
     height: 0;
   }
 
-  /* UPenn-style header: oversized logo row on top, name + nav row below.
+  /* Academic site header: brand row on top, navigation row below.
      Rides above the three decorative glass layers. */
   .header-container {
     position: relative;
@@ -110,7 +110,7 @@
     background: transparent;
   }
 
-  /* Row 1: oversized Penn logo (far left) + theme toggle (far right) */
+  /* Row 1: site brand (far left) + theme controls (far right) */
   .header-top {
     display: flex;
     align-items: center;
@@ -226,7 +226,7 @@
     display: inline-flex;
     align-items: center;
   }
-  /* Slash separators between tabs (UPenn-style) */
+  /* Slash separators between navigation tabs */
   .header-nav a:not(:last-child)::after {
     content: "/";
     margin: 0 16px;
@@ -320,7 +320,7 @@
     }
   }
 
-  /* Mobile portrait: pin the Penn logo to the far right */
+  /* Mobile portrait: keep the site brand aligned to the right */
   @media (max-width: 480px) and (orientation: portrait) {
     .header-actions {
       display: none;
@@ -514,7 +514,6 @@
 </head>
 
 <body class="page" itemscope itemtype="http://schema.org/WebPage">
-  {% include chrome-frame.html %}
 
   <!-- Theme toggle icon symbols (defined once, referenced via <use>) -->
   <svg display="none" aria-hidden="true">
@@ -563,7 +562,7 @@
     <div class="glass-specular" aria-hidden="true"></div>
     <div class="header-container">
 
-      <!-- Row 1: oversized Penn logo (far left) · theme toggle (far right) -->
+      <!-- Row 1: site brand (far left) · theme controls (far right) -->
       <div class="header-top">
         <!-- Mobile avatar with expandable contact menu (mobile portrait only) -->
         <div class="mobile-avatar-wrapper">
