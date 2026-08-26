@@ -3,7 +3,11 @@
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 <!-- Twitter Card and Open Graph social-share meta -->
-{% if page.image.thumb %}{% assign social_image = page.image.thumb %}{% elsif site.og_image %}{% assign social_image = site.og_image %}{% else %}{% assign social_image = 'default-thumb.png' %}{% endif %}
+{% if page.image.thumb %}
+  {% assign social_image = page.image.thumb %}
+{% elsif site.og_image %}
+  {% assign social_image = site.og_image %}
+{% endif %}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
