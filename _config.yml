@@ -2,9 +2,6 @@ title: Luyao Sun
 # Comment out url when working locally to resolve base urls correctly
 url: https://luyao-leo-sun.github.io
 
-# Default social-share preview image (Open Graph / Twitter card). Lives in /images/.
-og_image: og-cover.jpg
-
 # Owner/author information
 owner:
   name: Luyao Sun
