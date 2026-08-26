@@ -4290,13 +4290,6 @@ body,
   background: transparent;
 }
 
-/* Swap to the reverse (white) Penn lockup in dark mode */
-[data-theme="dark"] .logo--light {
-  display: none;
-}
-[data-theme="dark"] .logo--dark {
-  display: block;
-}
 
 [data-theme="dark"] .header-nav a {
   color: #e8e8ec;
