@@ -3140,10 +3140,6 @@ img.mfp-img {
   border-bottom: none !important;
 }
 
-.publication-title a:hover {
-  color: #2563eb;
-}
-
 .publication-authors {
   font-family:
     "Inter",
@@ -3159,7 +3155,6 @@ img.mfp-img {
 }
 
 .author-highlight {
-  color: #2563eb;
   font-weight: 600;
   font-style: normal;
 }
@@ -3184,19 +3179,12 @@ img.mfp-img {
 .publication-conference a {
   display: inline-block;
   padding: 2px 8px;
-  background: #e8f0fe;
   border-radius: 4px;
   font-size: 0.75rem;
   font-weight: 500;
-  color: #2563eb;
   text-decoration: none;
   border-bottom: none !important;
   transition: all 0.3s ease;
-}
-
-.publication-conference a:hover {
-  background: #2563eb;
-  color: #ffffff;
 }
 
 .publication-details {
