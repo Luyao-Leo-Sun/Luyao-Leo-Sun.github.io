@@ -4729,15 +4729,6 @@ body,
   background: #e5484d;
 }
 
-/* --- Header (dark): hover/current match light-mode Penn red --- */
-[data-theme="dark"] .header-nav a:hover,
-[data-theme="dark"] .header-nav a.is-current {
-  color: #e5484d;
-}
-[data-theme="dark"] .header-social__link:hover {
-  color: #e5484d;
-}
-
 /* --- Recruiting banner: #990000 is unreadable on dark --- */
 [data-theme="dark"] .article-wrap font[color="#990000"] {
   color: #e5484d;
