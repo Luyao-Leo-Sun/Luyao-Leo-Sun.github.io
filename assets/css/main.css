@@ -4729,25 +4729,6 @@ body,
   background: #e5484d;
 }
 
-/* --- Publications: blue identity, red hover --- */
-.publication-title a:hover {
-  color: #990000;
-}
-.author-highlight {
-  color: #011f5b;
-}
-.publication-conference a {
-  background: #e9eef7;
-  color: #011f5b;
-}
-.publication-conference a:hover {
-  background: #011f5b;
-  color: #ffffff;
-}
-[data-theme="dark"] .publication-title a:hover {
-  color: #e5484d;
-}
-
 /* --- Header (dark): hover/current match light-mode Penn red --- */
 [data-theme="dark"] .header-nav a:hover,
 [data-theme="dark"] .header-nav a.is-current {
