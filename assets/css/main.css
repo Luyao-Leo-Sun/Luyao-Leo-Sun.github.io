@@ -4658,10 +4658,7 @@ body,
 }
 
 /* ============================================
-   PENN PALETTE
-   Blue #011f5b = structure (links, lines, tags)
-   Red  #990000 = sparing accents (hover, marks)
-   Dark-mode tints: blue #6ea8ff / red #e5484d
+   SHARED CONTENT STYLES
    ============================================ */
 
 /* Section heading underline geometry */
@@ -4687,10 +4684,7 @@ body,
   color: inherit;
 }
 
-/* --- Timeline: keep the original "light-up" glow language,
-       recolored into the Penn family. Ring lights up in a
-       brighter Penn-blue tone; the progress line runs Penn red
-       (current, at the top) into Penn blue (the past). --- */
+/* Timeline transition behavior */
 /* This element's `transition` is contested earlier in the file
    (the dark-mode theme block overrides the component one), so the
    authoritative list lives here: theme swap + quiet hover. */
@@ -4813,7 +4807,7 @@ body,
     0 12px 28px -14px rgba(213, 139, 207, 0.18);
 }
 
-/* Timeline hover halo: override legacy Penn colors */
+/* Timeline hover halo */
 .timeline-item.in-view:not(.timeline-item--current):hover .timeline-dot {
   border-color: var(--brand-purple);
   box-shadow:
