@@ -4250,21 +4250,12 @@ body,
   color: #e8e8ec;
 }
 
-[data-theme="dark"] .header-nav a:hover,
-[data-theme="dark"] .header-nav a.is-current {
-  color: #6ea8ff;
-}
-
 [data-theme="dark"] .header-nav a:not(:last-child)::after {
   color: rgba(255, 255, 255, 0.28);
 }
 
 [data-theme="dark"] .header-social__link {
   color: #b6b6c0;
-}
-
-[data-theme="dark"] .header-social__link:hover {
-  color: #6ea8ff;
 }
 
 [data-theme="dark"] .header-bottom {
