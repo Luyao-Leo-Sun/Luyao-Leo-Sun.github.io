@@ -2617,21 +2617,27 @@ img.mfp-img {
   border-radius: 50%;
   flex-shrink: 0;
 }
+/* News category colors */
 .news-tag--publication {
-  color: #2563eb;
+  color: #011f5b;
 }
+
 .news-tag--publication::before {
-  background: #2563eb;
+  background: #011f5b;
 }
+
 .news-tag--milestone {
-  color: #059669;
+  color: #990000;
 }
+
 .news-tag--milestone::before {
-  background: #059669;
+  background: #990000;
 }
+
 .news-tag--research {
   color: #750F6D;
 }
+
 .news-tag--research::before {
   background: #750F6D;
 }
@@ -4454,11 +4460,11 @@ body,
 }
 
 [data-theme="dark"] .news-tag--milestone {
-  color: #34d399;
+  color: #e5484d;
 }
 
 [data-theme="dark"] .news-tag--milestone::before {
-  background: #34d399;
+  background: #e5484d;
 }
 
 /* --- Hobbies / Cooking / Guitar --- */
@@ -4707,26 +4713,6 @@ body,
 .timeline-company a:hover,
 .timeline-details a:hover {
   color: #990000;
-}
-
-/* --- News tags: publication blue, milestone red --- */
-.news-tag--publication {
-  color: #011f5b;
-}
-.news-tag--publication::before {
-  background: #011f5b;
-}
-.news-tag--milestone {
-  color: #990000;
-}
-.news-tag--milestone::before {
-  background: #990000;
-}
-[data-theme="dark"] .news-tag--milestone {
-  color: #e5484d;
-}
-[data-theme="dark"] .news-tag--milestone::before {
-  background: #e5484d;
 }
 
 /* --- Recruiting banner: #990000 is unreadable on dark --- */
