@@ -2321,13 +2321,6 @@ img.mfp-img {
   html {
     font-size: 95%;
   }
-  .site-name {
-    display: inline;
-    float: left;
-    width: 16.666666666666668%;
-    margin-left: 4.166666666666667%;
-    margin-right: 4.166666666666667%;
-  }
   .image-wrap .headline-wrap,
   .image-wrap:after {
     left: 25%;
