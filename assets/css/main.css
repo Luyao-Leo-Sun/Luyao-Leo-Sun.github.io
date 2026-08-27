@@ -2402,12 +2402,6 @@ img.mfp-img {
   }
 }
 @media only screen and (min-width: 86.375em) {
-  .site-name {
-    display: inline;
-    float: left;
-    width: 12.5%;
-    margin-left: 16.666666666666668%;
-  }
   .image-wrap:after {
     left: 33.333333333%;
   }
