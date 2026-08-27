@@ -268,7 +268,7 @@ If you are interested in my research or potential collaborations, feel free to r
 
 <div class="news-grid">
 
-  <div class="news-card news-card--milestone">
+  <div class="news-card news-card--education">
     <div class="news-meta">
       <span class="news-date">2026</span>
       <span class="news-tag news-tag--milestone">Education</span>
@@ -304,7 +304,7 @@ If you are interested in my research or potential collaborations, feel free to r
     </p>
   </div>
 
-  <div class="news-card news-card--milestone">
+  <div class="news-card news-card--education">
     <div class="news-meta">
       <span class="news-date">2024</span>
       <span class="news-tag news-tag--milestone">Education</span>
@@ -336,7 +336,7 @@ If you are interested in my research or potential collaborations, feel free to r
     </p>
   </div>
 
-  <div class="news-card news-card--milestone">
+  <div class="news-card news-card--education">
     <div class="news-meta">
       <span class="news-date">2020</span>
       <span class="news-tag news-tag--milestone">Education</span>
