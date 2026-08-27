@@ -2626,11 +2626,11 @@ img.mfp-img {
   background: #011f5b;
 }
 
-.news-tag--milestone {
+.news-tag--education {
   color: #990000;
 }
 
-.news-tag--milestone::before {
+.news-tag--education::before {
   background: #990000;
 }
 
@@ -4459,11 +4459,11 @@ body,
   background: #6ea8ff;
 }
 
-[data-theme="dark"] .news-tag--milestone {
+[data-theme="dark"] .news-tag--education {
   color: #e5484d;
 }
 
-[data-theme="dark"] .news-tag--milestone::before {
+[data-theme="dark"] .news-tag--education::before {
   background: #e5484d;
 }
 
