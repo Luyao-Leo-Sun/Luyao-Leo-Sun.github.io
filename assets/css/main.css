@@ -4743,34 +4743,6 @@ hr {
 .timeline-details a:hover {
   color: #990000;
 }
-/* Current role: a slow heartbeat — one red ripple every 2.8s,
-   with a rest beat. The only continuously-moving element on the
-   page, marking "Present". */
-[data-theme="dark"] .timeline-progress {
-  background: linear-gradient(to bottom, #e5484d, #6ea8ff 140px);
-}
-[data-theme="dark"] .timeline-item.in-view .timeline-dot {
-  box-shadow:
-    0 0 0 4px rgba(110, 168, 255, 0.14),
-    0 2px 14px rgba(110, 168, 255, 0.2);
-}
-[data-theme="dark"]
-  .timeline-item.in-view:not(.timeline-item--current):hover
-  .timeline-dot {
-  box-shadow:
-    0 0 0 7px rgba(110, 168, 255, 0.1),
-    0 2px 18px rgba(110, 168, 255, 0.24);
-}
-[data-theme="dark"] .timeline-company a:hover,
-[data-theme="dark"] .timeline-details a:hover {
-  color: #e5484d;
-}
-@media (prefers-reduced-motion: reduce) {
-  .timeline-item--current.in-view .timeline-dot,
-  [data-theme="dark"] .timeline-item--current.in-view .timeline-dot {
-    animation: none;
-  }
-}
 
 /* --- News tags: publication blue, milestone red --- */
 .news-tag--publication {
