@@ -4658,7 +4658,7 @@ body,
    Dark-mode tints: blue #6ea8ff / red #e5484d
    ============================================ */
 
-/* --- Section headings: short Penn-red underline bar --- */
+/* Section heading underline geometry */
 .article-wrap h1::after,
 .article-wrap h2::after {
   content: "";
@@ -4667,11 +4667,6 @@ body,
   height: 3px;
   margin-top: 10px;
   border-radius: 2px;
-  background: #990000;
-}
-[data-theme="dark"] .article-wrap h1::after,
-[data-theme="dark"] .article-wrap h2::after {
-  background: #e5484d;
 }
 
 /* --- Prose links: Penn blue at rest, Penn red on hover --- */
