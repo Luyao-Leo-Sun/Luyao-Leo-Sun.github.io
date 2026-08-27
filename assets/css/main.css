@@ -4705,20 +4705,7 @@ body,
    reads as light rather than a flat outline */
 /* Hovering a row makes its node's halo breathe outward
    (the current node keeps its own heartbeat instead) */
-.timeline-company,
-.timeline-company a,
-.timeline-details a {
-  color: #011f5b;
-}
-.timeline-company a:hover,
-.timeline-details a:hover {
-  color: #990000;
-}
 
-/* --- Recruiting banner: #990000 is unreadable on dark --- */
-[data-theme="dark"] .article-wrap font[color="#990000"] {
-  color: #e5484d;
-}
 
 /* ============================================
    LUYAO SUN / CUHK-SHENZHEN BRAND OVERRIDES
