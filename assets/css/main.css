@@ -4217,10 +4217,6 @@ body,
   border-top-color: rgba(255, 255, 255, 0.12);
 }
 
-[data-theme="dark"] .site-name a {
-  color: #e8e8ec;
-}
-
 /* Mobile avatar button border in dark mode */
 [data-theme="dark"] .mobile-avatar-btn::after {
   border-color: #14141a;
