@@ -271,7 +271,7 @@ If you are interested in my research or potential collaborations, feel free to r
   <div class="news-card news-card--education">
     <div class="news-meta">
       <span class="news-date">2026</span>
-      <span class="news-tag news-tag--milestone">Education</span>
+      <span class="news-tag news-tag--education">Education</span>
     </div>
     <p>
       Joined the <a href="https://sds.cuhk.edu.cn/" target="_blank">
@@ -307,7 +307,7 @@ If you are interested in my research or potential collaborations, feel free to r
   <div class="news-card news-card--education">
     <div class="news-meta">
       <span class="news-date">2024</span>
-      <span class="news-tag news-tag--milestone">Education</span>
+      <span class="news-tag news-tag--education">Education</span>
     </div>
     <p>
       Received my B.Eng. degree in
@@ -339,7 +339,7 @@ If you are interested in my research or potential collaborations, feel free to r
   <div class="news-card news-card--education">
     <div class="news-meta">
       <span class="news-date">2020</span>
-      <span class="news-tag news-tag--milestone">Education</span>
+      <span class="news-tag news-tag--education">Education</span>
     </div>
     <p>
       Began my undergraduate studies in
