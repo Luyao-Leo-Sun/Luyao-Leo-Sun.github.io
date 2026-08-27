@@ -2738,7 +2738,6 @@ img.mfp-img {
   top: 30px;
   width: 2px;
   height: 0;
-  background: linear-gradient(to bottom, #2563eb, #7c3aed);
   transition: height 0.1s linear;
   z-index: 0;
 }
@@ -2809,12 +2808,6 @@ img.mfp-img {
   width: auto;
   height: auto;
   object-fit: contain;
-}
-
-/* Glow effect when in view */
-.timeline-item.in-view .timeline-dot {
-  border-color: #2563eb;
-  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
 }
 
 /* Card */
