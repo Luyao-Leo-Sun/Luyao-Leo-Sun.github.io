@@ -1,12 +1,11 @@
 source "https://rubygems.org"
 
-# Jekyll (using 4.2.x for Ruby 2.6 compatibility)
+# Jekyll, for previewing the site locally. GitHub Pages builds with its own
+# pinned Jekyll and ignores this file.
 gem "jekyll", "~> 4.2.0"
 
-# Jekyll plugins
+# Jekyll plugins (also listed under `plugins:` in _config.yml)
 gem "jekyll-sitemap"
-gem "jekyll-gist"
-gem "jekyll-feed"
 
 # Platform dependencies
 gem "webrick", "~> 1.7"

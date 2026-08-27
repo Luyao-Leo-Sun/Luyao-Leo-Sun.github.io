@@ -1,8 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<html class="no-js" lang="en">
 
 <head>
 {% include head.html %}
@@ -16,24 +13,10 @@
      :root[data-theme="dark"].
      ============================================ */
   :root {
-    --glass-blur-xs: blur(4px) saturate(180%);                     /* dropdowns, pills, small popovers */
-    --glass-blur-sm: blur(10px) saturate(160%) brightness(1.05);   /* compact controls, drawers */
-    --glass-blur-md: blur(16px) saturate(180%);                    /* cards, mid surfaces */
-    --glass-blur-lg: blur(20px) saturate(180%);                    /* chrome baseline */
-    --glass-blur-xl: blur(40px) saturate(180%);                    /* modals, hero glass */
+    --glass-blur-md: blur(16px) saturate(180%);   /* header refraction layer */
 
-    --glass-fill-clear:  rgba(255, 255, 255, 0.08);
-    --glass-fill-light:  rgba(255, 255, 255, 0.35);
-    --glass-fill:        rgba(255, 255, 255, 0.55);
-    --glass-fill-strong: rgba(255, 255, 255, 0.72);
-    --glass-fill-solid:  rgba(255, 255, 255, 0.92);
-
-    --glass-border:    rgba(255, 255, 255, 0.6);
-    --glass-highlight: rgba(255, 255, 255, 0.9);
-    --glass-hairline:  rgba(0, 0, 0, 0.06);
-    --glass-shadow:
-      0 8px 32px rgba(0, 0, 0, 0.12),
-      0 2px 8px rgba(0, 0, 0, 0.06);
+    --glass-fill:        rgba(255, 255, 255, 0.55);   /* header tint */
+    --glass-fill-strong: rgba(255, 255, 255, 0.72);   /* no-backdrop-filter fallback */
   }
 
   /* 通用样式 — liquid glass sticky header.
@@ -92,11 +75,6 @@
     .header-sticky-wrapper > .glass-overlay {
       background: var(--glass-fill-strong);
     }
-  }
-
-  /* Spacer only needed on mobile when header is fixed */
-  .header-spacer {
-    height: 0;
   }
 
   /* Academic site header: brand row on top, navigation row below.
@@ -535,24 +513,15 @@
     </symbol>
   </svg>
 
-  <!-- Liquid-glass SVG refraction filters (ported from Tahoe GlassFilterDefs).
-       The header's .glass-filter layer references #liquidGlassLens via
-       `filter: url(#liquidGlassLens)` — without these defs the glass falls
-       back to flat frosting with no liquid edge bend. -->
+  <!-- Liquid-glass SVG refraction filter (ported from Tahoe GlassFilterDefs).
+       The header's .glass-filter layer references #liquidGlassDisplacement via
+       `filter: url(#liquidGlassDisplacement)` — without this def the glass
+       falls back to flat frosting with no liquid edge bend. -->
   <svg aria-hidden="true" focusable="false" style="position: absolute; width: 0; height: 0; pointer-events: none;">
     <!-- Soft displacement for large surfaces (modals/hero). -->
     <filter id="liquidGlassDisplacement" x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox">
       <feGaussianBlur in="SourceAlpha" stdDeviation="30" result="glassBlur" />
       <feDisplacementMap in="SourceGraphic" in2="glassBlur" scale="30" xChannelSelector="A" yChannelSelector="A" />
-    </filter>
-    <!-- Stronger lens — wet/liquid edge bend that reads at compact sizes
-         (macOS Tahoe Liquid Glass). -->
-    <filter id="liquidGlassLens" x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox">
-      <feComponentTransfer in="SourceAlpha" result="alpha">
-        <feFuncA type="identity" />
-      </feComponentTransfer>
-      <feGaussianBlur in="alpha" stdDeviation="50" result="lensBlur" />
-      <feDisplacementMap in="SourceGraphic" in2="lensBlur" scale="50" xChannelSelector="A" yChannelSelector="A" />
     </filter>
   </svg>
 
@@ -652,7 +621,6 @@
 
     </div>
   </div>
-  <div class="header-spacer"></div>
 
   <!-- 其他内容保持不变 -->
   {% if page.image.feature %}<div class="image-wrap">
@@ -660,9 +628,6 @@
   </div>{% endif %}
 
   <div id="main" role="main" itemprop="mainContentOfPage">
-    <div class="article-author-top">
-      {% include author-bio.html %}
-    </div>
     <article itemscope itemtype="http://schema.org/CreativeWork">
       <div class="article-wrap" itemprop="text">
         {{ content }}
@@ -675,8 +640,6 @@
       {% include footer.html %}
     </footer>
   </div>
-
-  {% include scripts.html %}
 
   <!-- Contact popover (direct child of body, uses fixed positioning) -->
   <div class="mobile-contact-panel" id="mobileContactPanel">

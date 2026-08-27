@@ -27,9 +27,14 @@ links:
     url: /hobbies/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: China/Beijing
+timezone: Asia/Shanghai
 future: true
 highlighter: rouge
+
+# Plugins have to be listed here to load; naming them in the Gemfile is not
+# enough, which is why no sitemap was ever generated.
+plugins:
+  - jekyll-sitemap
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:title
