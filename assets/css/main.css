@@ -4267,15 +4267,6 @@ body,
   color: #e8e8ec;
 }
 
-[data-theme="dark"] .top-navigation a:hover,
-[data-theme="dark"] .top-navigation-current {
-  color: #6ea8ff;
-}
-
-[data-theme="dark"] .top-navigation-current {
-  text-decoration-color: #6ea8ff;
-}
-
 /* Mobile avatar button border in dark mode */
 [data-theme="dark"] .mobile-avatar-btn::after {
   border-color: #14141a;
