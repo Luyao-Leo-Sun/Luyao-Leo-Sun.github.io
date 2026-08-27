@@ -1729,21 +1729,6 @@ html {
 .footer-icons li a:hover .icon-github {
   color: #4183c4;
 }
-.chrome-frame {
-  background: #000;
-  margin: 0 0 2em 0;
-  padding: 10px;
-  text-align: center;
-  color: #ffffff;
-}
-.chrome-frame a {
-  color: #ffffff;
-  border-bottom: 1px dotted #ffffff;
-  text-decoration: none;
-}
-.chrome-frame a:hover {
-  border-bottom: 1px solid #ffffff;
-}
 .mfp-bg {
   top: 0;
   left: 0;
