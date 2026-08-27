@@ -4332,27 +4332,12 @@ body,
   color: #a8a8b4;
 }
 
-[data-theme="dark"] .timeline-details a,
-[data-theme="dark"] .timeline-company,
-[data-theme="dark"] .timeline-company a {
-  color: #6ea8ff;
-}
-
-[data-theme="dark"] .timeline-company a:hover {
-  color: #8b95ff;
-}
-
 [data-theme="dark"] .timeline-sep {
   color: rgba(255, 255, 255, 0.18);
 }
 
 [data-theme="dark"] .timeline-dot {
   border-color: rgba(255, 255, 255, 0.12);
-}
-
-[data-theme="dark"] .timeline-item.in-view .timeline-dot {
-  border-color: #6ea8ff;
-  box-shadow: 0 0 0 4px rgba(110, 168, 255, 0.18);
 }
 
 /* --- Publications cards --- */
