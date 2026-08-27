@@ -3609,7 +3609,6 @@ img.mfp-img {
   /* clip, not hidden: hidden makes overflow-y compute to auto, turning #main
      into a scroll container that swallows the first touch scroll on mobile */
   .header-container,
-  .navigation-wrapper,
   #main {
     max-width: 100%;
     overflow-x: clip;
