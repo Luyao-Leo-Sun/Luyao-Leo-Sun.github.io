@@ -4640,15 +4640,6 @@ h1, h2, h3, h4, h5, h6,
 .article-wrap h4, .article-wrap h5, .article-wrap h6 {
   font-family: "EB Garamond", Georgia, "Times New Roman", serif;
   letter-spacing: 0;
-  color: #011f5b; /* Penn blue */
-}
-/* Penn blue is too dark on the dark background — keep dark headings readable */
-[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3,
-[data-theme="dark"] h4, [data-theme="dark"] h5, [data-theme="dark"] h6,
-[data-theme="dark"] .article-wrap h1, [data-theme="dark"] .article-wrap h2,
-[data-theme="dark"] .article-wrap h3, [data-theme="dark"] .article-wrap h4,
-[data-theme="dark"] .article-wrap h5, [data-theme="dark"] .article-wrap h6 {
-  color: #eef1f7;
 }
 body,
 .article-wrap,
