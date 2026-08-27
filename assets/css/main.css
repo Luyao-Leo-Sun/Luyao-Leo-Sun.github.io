@@ -1340,16 +1340,6 @@ html {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
-.site-name {
-  margin: 0 auto;
-  width: 100%;
-  display: inline;
-  float: left;
-  width: 83.33333333333334%;
-  margin-left: 8.333333333333334%;
-  margin-right: 8.333333333333334%;
-  margin-bottom: 0;
-}
 #main {
   counter-reset: captions;
   margin: 0 auto;
