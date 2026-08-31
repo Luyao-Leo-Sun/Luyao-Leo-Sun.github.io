@@ -1397,6 +1397,14 @@ button::-moz-focus-inner {
   background: #750F6D;
 }
 
+.news-tag--award {
+  color: #8a6a1c;
+}
+
+.news-tag--award::before {
+  background: #8a6a1c;
+}
+
 /* 正文 */
 .news-card p {
   margin: 0;
@@ -2478,6 +2486,14 @@ body,
 
 [data-theme="dark"] .news-tag--education::before {
   background: #e5484d;
+}
+
+[data-theme="dark"] .news-tag--award {
+  color: #d8ae54;
+}
+
+[data-theme="dark"] .news-tag--award::before {
+  background: #d8ae54;
 }
 
 /* --- Mobile contact panel --- */

@@ -264,6 +264,62 @@ If you are interested in my research or potential collaborations, feel free to r
 
 ---
 
+## Honors & Awards
+
+<div class="news-grid">
+
+  <div class="news-card">
+    <div class="news-meta">
+      <span class="news-date">2024</span>
+      <span class="news-tag news-tag--award">Award</span>
+    </div>
+    <p>
+      <strong>First Prize</strong> in the National College Students&#8217;
+      <strong>Innovation and Entrepreneurship Training Program</strong>.
+    </p>
+  </div>
+
+  <div class="news-card">
+    <div class="news-meta">
+      <span class="news-date">2022</span>
+      <span class="news-tag news-tag--award">Award</span>
+    </div>
+    <p>
+      <strong>Third Prize</strong> in the <strong>national finals</strong> of the
+      China Collegiate Computing Contest <strong>HCI Innovation
+      Competition</strong>.
+    </p>
+  </div>
+
+  <div class="news-card">
+    <div class="news-meta">
+      <span class="news-date">2022</span>
+      <span class="news-tag news-tag--award">Award</span>
+    </div>
+    <p>
+      <strong>Silver Award</strong> in the main track of the 8th China
+      International <strong>&#8220;Internet+&#8221;</strong> College Students
+      Innovation and Entrepreneurship Competition, <strong>Tianjin
+      Division</strong>.
+    </p>
+  </div>
+
+  <div class="news-card">
+    <div class="news-meta">
+      <span class="news-date">2021</span>
+      <span class="news-tag news-tag--award">Award</span>
+    </div>
+    <p>
+      <strong>Third Prize</strong> in the Science Popularization Micro-Video
+      category, 1st Tianjin <strong>&#8220;University&#8211;Secondary
+      School&#8221;</strong> Science Popularization Innovation Competition.
+    </p>
+  </div>
+
+</div>
+
+---
+
 ## News and Updates
 
 <div class="news-grid">
