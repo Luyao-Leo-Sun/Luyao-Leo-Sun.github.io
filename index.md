@@ -306,6 +306,18 @@ If you are interested in my research or potential collaborations, feel free to r
 
   <div class="news-card">
     <div class="news-meta">
+      <span class="news-date">2022</span>
+      <span class="news-tag news-tag--award">Award</span>
+    </div>
+    <p>
+      <strong>Excellence Award</strong> in the main track of the 4th
+      <strong>&#8220;President&#8217;s Cup&#8221;</strong> Innovation and
+      Entrepreneurship Competition at <strong>Nankai University</strong>.
+    </p>
+  </div>
+
+  <div class="news-card">
+    <div class="news-meta">
       <span class="news-date">2021</span>
       <span class="news-tag news-tag--award">Award</span>
     </div>
