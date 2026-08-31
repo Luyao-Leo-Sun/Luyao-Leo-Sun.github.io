@@ -2488,6 +2488,14 @@ body,
   background: #e5484d;
 }
 
+[data-theme="dark"] .news-tag--research {
+  color: #d58bcf;
+}
+
+[data-theme="dark"] .news-tag--research::before {
+  background: #d58bcf;
+}
+
 [data-theme="dark"] .news-tag--award {
   color: #d8ae54;
 }
